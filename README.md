@@ -325,6 +325,7 @@ cmux embeds a WebKit browser pane that agents can control via CLI. Plugins use `
 | ![JavaScript](https://img.shields.io/badge/-555555?logo=javascript&logoColor=white&style=flat-square) [hxppk/cmux-inspect-bridge](https://github.com/hxppk/cmux-inspect-bridge) | Claude Code | Intercept Alt+Click on elements in the cmux browser pane, show a floating requirement prompt, and inject the result into the claude or qwen input box, replacing the screenshot-paste workflow. | — |
 | ![JavaScript](https://img.shields.io/badge/-555555?logo=javascript&logoColor=white&style=flat-square) [theevilhead/cmux-browser-element-pick](https://github.com/theevilhead/cmux-browser-element-pick) | Multi | Click a UI element in the cmux browser to capture its DOM subtree, computed CSS, and design tokens, then pipe the payload into the active agent pane using cmux CLI primitives. | — |
 | ![TypeScript](https://img.shields.io/badge/-555555?logo=typescript&logoColor=white&style=flat-square) [usr-bin-roygbiv/omp-cmux-browser-tools](https://github.com/usr-bin-roygbiv/omp-cmux-browser-tools) | Pi | Expose 30+ typed tool calls over the full cmux API — workspaces, panes, surfaces, browser navigation, sidebar state, notifications, resume metadata — for OMP and Pi without custom system-prompt snippets. | — |
+| ![Python](https://img.shields.io/badge/-555555?logo=python&logoColor=white&style=flat-square) [tofunori/cmux-gallery](https://github.com/tofunori/cmux-gallery) | — | Scan any project directory for figures, PDFs, data files, and code to build a searchable HTML gallery served in cmux's browser surface with thumbnails and per-file viewers. Configure as a Command Palette or Dock entry; includes an 'annotate → Claude' action so Claude Code can mark artifacts without leaving the workspace. | — |
 
 ### 7. Worktrees & Workspace Management
 
@@ -684,6 +685,7 @@ These projects work across multiple agents or are agent-agnostic.
 | ![Shell](https://img.shields.io/badge/-555555?logo=gnubash&logoColor=white&style=flat-square) [basedcorp99/claude-worktree-zsh](https://github.com/basedcorp99/claude-worktree-zsh) | `worktree` `orchestrate` | Launch 5 agents (Claude/Codex/Droid/OpenCode/Pi) in worktrees with `cwl` dashboard and `cwm` merge-back | — |
 | [TimoKruth/cmux-t3code](https://github.com/TimoKruth/cmux-t3code) | `browser` `layout` `worktree` | Embed t3code AI coding GUI as per-workspace chat panels via sidecar Node.js servers on unique ports | — |
 | ![Shell](https://img.shields.io/badge/-555555?logo=gnubash&logoColor=white&style=flat-square) [LattyCat/cmux-workspace](https://github.com/LattyCat/cmux-workspace) | `layout` `config` | Create a Japanese 4-pane layout with yazi + Markdown preview + lazygit + AI terminal, symlinked to command palette | — |
+| ![Python](https://img.shields.io/badge/-555555?logo=python&logoColor=white&style=flat-square) [tofunori/cmux-gallery](https://github.com/tofunori/cmux-gallery) | `browser` | Build a searchable artifact gallery from project files and serve it in the cmux browser surface with thumbnails, per-file viewers, and a Claude annotation action | — |
 
 ---
 
